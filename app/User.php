@@ -27,7 +27,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    function members()
+    function member()
     {
         return $this->belongsTo(Member::class);
     }

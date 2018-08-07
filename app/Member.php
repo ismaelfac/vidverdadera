@@ -1,8 +1,7 @@
 <?php
-
+use App\Modelsgenerals\{ Identification, Neighborhood, Municipality, Departament, Country, Civilstatus, Church };
+use App\{ User, Leader};
 namespace App;
-use App\ModelsGenerals\{ Identification, Neighborhood, Municipality, Departament, Country, CivilStatus };
-use App\{ Leader, DistrictPastors };
 
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
@@ -18,6 +17,8 @@ class Member extends Model
         'landline',
         'email',
         'address',
+        'latitude',
+        'longitude',
         'neighborhood_id',
         'municipality_id',
         'departament_id',
@@ -25,7 +26,13 @@ class Member extends Model
         'birthdate',
         'civil_status',
         'wedding_anniversary',
-        'is_leaders'
+        'active',
+        'is_leader',
+        'church_id'
+    ];
+    protected $casts = [
+        'active' = 'boolean',
+        'is_leader' = 'boolean'
     ];
     public function identification()
     {
@@ -49,23 +56,29 @@ class Member extends Model
     }
     public function civilStatus()
     {
-        return $this->belongsTo(CivilStatus::class);
+        return $this->belongsTo(Civilstatus::class);
     }
-    public function districtPastor()
-    {
-        return $this->belongsTo(DistrictPastors::class);
+    public function church(){
+        return $this->belongsTo(Church::class);
     }
-    public function setNameAttribute($value)
+    public function leaders()
     {
-        $this->attributes['first_name'] = $value;
-        $this->attributes['slug'] = Str::slug($value);
+        return $this->hasMany(Leader::class);
+    }
+    public function users()
+    {
+        return $this->belongsTo(User::class);
+    }
+    public function is_leader()
+    {
+        return $this->is_leader;
     }
     public function getUrlAttribute()
     {
-        return route('member.show', [$this->id, $this->slug]);
+        return route('member.show', $this->id);
     }
-    public function leader()
+    public function getLocationAttribute()
     {
-        return $this->belongsTo(Leader::class);
+        return $this->address;
     }
 }

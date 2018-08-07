@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCivilStatusTable extends Migration
+class CreateMunicipalitiesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,12 @@ class CreateCivilStatusTable extends Migration
      */
     public function up()
     {
-        Schema::create('civilStatus', function (Blueprint $table) {
+        Schema::create('municipalities', function (Blueprint $table) {
             $table->increments('id');
             $table->string('code');
             $table->string('description');
-            $table->timestamps();
+            $table->integer('departament_id')->unsigned();
+            $table->foreign('departament_id')->references('id')->on('departaments');
         });
     }
 
@@ -28,6 +29,6 @@ class CreateCivilStatusTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('civilStatus');
+        Schema::dropIfExists('municipalities');
     }
 }

@@ -17,9 +17,9 @@ class CreateDepartamentsTable extends Migration
             $table->increments('id');
             $table->string('code');
             $table->string('description');
+            $table->string('short_name');
             $table->integer('country_id')->unsigned();
-            $table->foreign('country_id')->references('id')->on('countrys');
-            $table->timestamps();
+            $table->foreign('country_id')->references('id')->on('countries');
         });
     }
 

@@ -1,8 +1,5 @@
 <?php
 
-use Illuminate\Foundation\Testing\WithoutMiddleware;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class MinisterialAssignmentsTest extends TestCase
 {
@@ -23,7 +20,7 @@ class MinisterialAssignmentsTest extends TestCase
         
         //Then
         $this->seeInDatabase('members', [
-
+            
         ]);
         $this->seePageIs($member->url);
     }

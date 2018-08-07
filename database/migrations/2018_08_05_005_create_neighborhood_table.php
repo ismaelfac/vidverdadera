@@ -18,8 +18,7 @@ class CreateNeighborhoodTable extends Migration
             $table->string('code');
             $table->string('description');
             $table->integer('municipality_id')->unsigned();
-            $table->foreign('municipality_id')->references('id')->on('municipalitys');
-            $table->timestamps();
+            $table->foreign('municipality_id')->references('id')->on('municipalities');
         });
     }
 
