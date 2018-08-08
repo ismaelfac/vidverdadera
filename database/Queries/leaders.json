@@ -1,0 +1,38 @@
+[
+ {
+   "description": "Diacono",
+   "short_name": "D"
+ },
+ {
+   "description": "Anciano Pastor de Culto",
+   "short_name": "APC"
+ },
+ {
+   "description": "Anciano",
+   "short_name": "A"
+ },
+ {
+   "description": "Pastor",
+   "short_name": "P"
+ },
+ {
+   "description": "Pastor Ordenado",
+   "short_name": "PC"
+ },
+ {
+   "description": "Pastor Interino",
+   "short_name": "PI"
+ },
+ {
+   "description": "Pastor Distrital",
+   "short_name": "PD"
+ },
+ {
+   "description": "Pastor Zonal",
+   "short_name": "PZ"
+ },
+ {
+   "description": "Co-Pastor",
+   "short_name": "CP"
+ }
+]

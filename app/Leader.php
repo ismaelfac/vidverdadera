@@ -6,16 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Leader extends Model
 {
-    //
-    protected $fillable = ['description'];
-
-    public function member()
+    protected $fillable = ['description','short_name'];
+    public $timestamps = false;
+    
+    public function members()
     {
-        return $this->belongsTo(Member::class);
-    }
-
-    public function subscriptions()
-    {
-        
+        return $this->belongsToMany(Member::class);
     }
 }

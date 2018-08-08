@@ -62,7 +62,7 @@ class Member extends Model
     }
     public function leaders()
     {
-        return $this->hasMany(Leader::class);
+        return $this->belongsToMany(Leader::class);
     }
     public function user()
     {
@@ -71,6 +71,10 @@ class Member extends Model
     public function isLeader()
     {
         return ($this->is_leader ? true : false);
+    }
+    public function getFullNameAttribute()
+    {
+        return $this->first_name.' '.$this->last_name;
     }
     public function getUrlAttribute()
     {

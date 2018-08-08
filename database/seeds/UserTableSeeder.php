@@ -4,20 +4,15 @@ use Illuminate\Database\Seeder;
 
 class UserTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
         $data = file_get_contents("database/Queries/users.json");
         $users = json_decode($data, true);
         foreach ($users as $value) {
-            //dd($value['code']);
+            $member = Member::where('id',$value['member_id'])->where('active',1)->first();
             User::create([
-                'name' => strtoupper($value['name']),
-                'email' => strtoupper($value['email']),
+                'name' => $member->fullname,
+                'email' => $member->email,
                 'password' => bcrypt($value['password']),
                 'member_id' => $value['member_id'],
             ]);

@@ -1,0 +1,18 @@
+[
+ {
+   "description": "Asignar los miembros a los pastores zonales",
+   "leader_id": 7
+ },
+ {
+   "description": "Mantener un reporte semanal de las visitas realizadas por los pastores zonales",
+   "leader_id": 7
+ },
+ {
+   "description": "Visitar a los miembros asignados por los pastores Distritales",
+   "leader_id": 8
+ },
+ {
+   "description": "Mantener un reporte semanal  de las realizadas a los miembros asignados por los pastores Distritales",
+   "leader_id": 8
+ }
+]

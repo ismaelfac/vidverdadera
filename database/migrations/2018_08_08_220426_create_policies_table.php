@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLeadersTable extends Migration
+class CreatePoliciesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,14 @@ class CreateLeadersTable extends Migration
      */
     public function up()
     {
-        Schema::create('leaders', function (Blueprint $table) {
-            $table->engine = 'InnoDB';
+        Schema::create('policies', function (Blueprint $table) {
             $table->increments('id');
             $table->string('description');
-            $table->string('short_name')->unique();
+            $table->integer('leader_id')->unsigned();
+            $table->foreign('leader_id')->references('id')->on('leaders')
+                  ->onDelete('cascade')
+                  ->onUpdate('cascade');
+            $table->timestamps();
         });
     }
 
@@ -28,6 +31,6 @@ class CreateLeadersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('leaders');
+        Schema::dropIfExists('policies');
     }
 }
