@@ -4,21 +4,18 @@ use Illuminate\Database\Seeder;
 
 class DepartamentTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
-        Departament::create([
-            'code' => '08',
-            'description' => 'ATLANTICO',
-            'short_name' => 'ATL',
-            'country_id' => factory(Departament::class, 1)->create()->each(function(Departament $departament){
-                                $departament->country()
-                                            ->save(factory(Country::class)->make());
-                            });
-        ]);
+        $data = file_get_contents("database/Queries/departaments.json");
+        $departaments = json_decode($data, true);
+        foreach ($departaments as $value) {
+            //dd($value['code']);
+            Departament::create([
+                'code' => $value['code'],
+                'description' => $value['description'],
+                'short_name' => $value['short_name'],
+                'country_id' => $value['id_country']
+            ]);
+        }
     }
 }

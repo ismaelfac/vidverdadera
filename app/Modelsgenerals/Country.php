@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Country extends Model
 {
     //
-    protected $fillable = ['code', 'description', 'nationality'];
+    protected $fillable = ['code', 'description', 'nationality', 'short_name'];
     public $timestamps = false;
 
     public function departament()

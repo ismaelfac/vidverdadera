@@ -18,6 +18,7 @@ class CreateCountriesTable extends Migration
             $table->string('code');
             $table->string('description');
             $table->string('nationality');
+            $table->string('short_name');
         });
     }
 

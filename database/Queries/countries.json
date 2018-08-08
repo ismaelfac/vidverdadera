@@ -2,1477 +2,1477 @@
  {
    "code": "AF",
    "description": "Afganistán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "AFG"
  },
  {
    "code": "AL",
    "description": "Albania",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ALB"
  },
  {
    "code": "DE",
    "description": "Alemania",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "DEU"
  },
  {
    "code": "DZ",
    "description": "Algeria",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "DZA"
  },
  {
    "code": "AD",
    "description": "Andorra",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "AND"
  },
  {
    "code": "AO",
    "description": "Angola",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "AGO"
  },
  {
    "code": "AI",
    "description": "Anguila",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "AIA"
  },
  {
    "code": "AQ",
    "description": "Antártida",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ATA"
  },
  {
    "code": "AG",
    "description": "Antigua y Barbuda",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ATG"
  },
  {
    "code": "AN",
    "description": "Antillas Neerlandesas",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ANT"
  },
  {
    "code": "SA",
    "description": "Arabia Saudita",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SAU"
  },
  {
    "code": "AR",
    "description": "Argentina",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ARG"
  },
  {
    "code": "AM",
    "description": "Armenia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ARM"
  },
  {
    "code": "AW",
    "description": "Aruba",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ABW"
  },
  {
    "code": "AU",
    "description": "Australia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "AUS"
  },
  {
    "code": "AT",
    "description": "Austria",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "AUT"
  },
  {
    "code": "AZ",
    "description": "Azerbayán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "AZE"
  },
  {
    "code": "BE",
    "description": "Bélgica",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BEL"
  },
  {
    "code": "BS",
    "description": "Bahamas",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BHS"
  },
  {
    "code": "BH",
    "description": "Bahrein",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BHR"
  },
  {
    "code": "BD",
    "description": "Bangladesh",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BGD"
  },
  {
    "code": "BB",
    "description": "Barbados",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BRB"
  },
  {
    "code": "BZ",
    "description": "Belice",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BLZ"
  },
  {
    "code": "BJ",
    "description": "Benín",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BEN"
  },
  {
    "code": "BT",
    "description": "Bhután",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BTN"
  },
  {
    "code": "BY",
    "description": "Bielorrusia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BLR"
  },
  {
    "code": "MM",
    "description": "Birmania",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MMR"
  },
  {
    "code": "BO",
    "description": "Bolivia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BOL"
  },
  {
    "code": "BA",
    "description": "Bosnia y Herzegovina",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BIH"
  },
  {
    "code": "BW",
    "description": "Botsuana",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BWA"
  },
  {
    "code": "BR",
    "description": "Brasil",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BRA"
  },
  {
    "code": "BN",
    "description": "Brunéi",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BRN"
  },
  {
    "code": "BG",
    "description": "Bulgaria",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BGR"
  },
  {
    "code": "BF",
    "description": "Burkina Faso",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BFA"
  },
  {
    "code": "BI",
    "description": "Burundi",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BDI"
  },
  {
    "code": "CV",
    "description": "Cabo Verde",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CPV"
  },
  {
    "code": "KH",
    "description": "Camboya",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "KHM"
  },
  {
    "code": "CM",
    "description": "Camerún",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CMR"
  },
  {
    "code": "CA",
    "description": "Canadá",
-   "nacionality": "CANADIENSE",
+   "nationality": "CANADIENSE",
    "short_name": "CAN"
  },
  {
    "code": "TD",
    "description": "Chad",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TCD"
  },
  {
    "code": "CL",
    "description": "Chile",
-   "nacionality": "CHILENA",
+   "nationality": "CHILENA",
    "short_name": "CHL"
  },
  {
    "code": "CN",
    "description": "China",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CHN"
  },
  {
    "code": "CY",
    "description": "Chipre",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CYP"
  },
  {
    "code": "VA",
    "description": "Ciudad del Vaticano",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "VAT"
  },
  {
    "code": "CO",
    "description": "Colombia",
-   "nacionality": "COLOMBIANA",
+   "nationality": "COLOMBIANA",
    "short_name": "COL"
  },
  {
    "code": "KM",
    "description": "Comoras",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "COM"
  },
  {
    "code": "CG",
    "description": "Congo",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "COG"
  },
  {
    "code": "CD",
    "description": "Congo",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "COD"
  },
  {
    "code": "KP",
    "description": "Corea del Norte",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PRK"
  },
  {
    "code": "KR",
    "description": "Corea del Sur",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "KOR"
  },
  {
    "code": "CI",
    "description": "Costa de Marfil",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CIV"
  },
  {
    "code": "CR",
    "description": "Costa Rica",
-   "nacionality": "COSTARRISENCES",
+   "nationality": "COSTARRISENCES",
    "short_name": "CRI"
  },
  {
    "code": "HR",
    "description": "Croacia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "HRV"
  },
  {
    "code": "CU",
    "description": "Cuba",
-   "nacionality": "CUBANA",
+   "nationality": "CUBANA",
    "short_name": "CUB"
  },
  {
    "code": "DK",
    "description": "Dinamarca",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "DNK"
  },
  {
    "code": "DM",
    "description": "Dominica",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "DMA"
  },
  {
    "code": "EC",
    "description": "Ecuador",
-   "nacionality": "ECUATORIANOS",
+   "nationality": "ECUATORIANOS",
    "short_name": "ECU"
  },
  {
    "code": "EG",
    "description": "Egipto",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "EGY"
  },
  {
    "code": "SV",
    "description": "El Salvador",
-   "nacionality": "SALVADOREÑOS",
+   "nationality": "SALVADOREÑOS",
    "short_name": "SLV"
  },
  {
    "code": "AE",
    "description": "Emiratos Árabes Unidos",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ARE"
  },
  {
    "code": "ER",
    "description": "Eritrea",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ERI"
  },
  {
    "code": "SK",
    "description": "Eslovaquia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SVK"
  },
  {
    "code": "SI",
    "description": "Eslovenia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SVN"
  },
  {
    "code": "ES",
    "description": "España",
-   "nacionality": "ESPAÑOLES",
+   "nationality": "ESPAÑOLES",
    "short_name": "ESP"
  },
  {
    "code": "US",
    "description": "Estados Unidos de América",
-   "nacionality": "ESTADOUNIDENSES",
+   "nationality": "ESTADOUNIDENSES",
    "short_name": "USA"
  },
  {
    "code": "EE",
    "description": "Estonia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "EST"
  },
  {
    "code": "ET",
    "description": "Etiopía",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ETH"
  },
  {
    "code": "PH",
    "description": "Filipinas",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PHL"
  },
  {
    "code": "FI",
    "description": "Finlandia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "FIN"
  },
  {
    "code": "FJ",
    "description": "Fiyi",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "FJI"
  },
  {
    "code": "FR",
    "description": "Francia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "FRA"
  },
  {
    "code": "GA",
    "description": "Gabón",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GAB"
  },
  {
    "code": "GM",
    "description": "Gambia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GMB"
  },
  {
    "code": "GE",
    "description": "Georgia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GEO"
  },
  {
    "code": "GH",
    "description": "Ghana",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GHA"
  },
  {
    "code": "GI",
    "description": "Gibraltar",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GIB"
  },
  {
    "code": "GD",
    "description": "Granada",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GRD"
  },
  {
    "code": "GR",
    "description": "Grecia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GRC"
  },
  {
    "code": "GL",
    "description": "Groenlandia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GRL"
  },
  {
    "code": "GP",
    "description": "Guadalupe",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GLP"
  },
  {
    "code": "GU",
    "description": "Guam",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GUM"
  },
  {
    "code": "GT",
    "description": "Guatemala",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GTM"
  },
  {
    "code": "GF",
    "description": "Guayana Francesa",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GUF"
  },
  {
    "code": "GG",
    "description": "Guernsey",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GGY"
  },
  {
    "code": "GN",
    "description": "Guinea",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GIN"
  },
  {
    "code": "GQ",
    "description": "Guinea Ecuatorial",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GNQ"
  },
  {
    "code": "GW",
    "description": "Guinea-Bissau",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GNB"
  },
  {
    "code": "GY",
    "description": "Guyana",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GUY"
  },
  {
    "code": "HT",
    "description": "Haití",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "HTI"
  },
  {
    "code": "HN",
    "description": "Honduras",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "HND"
  },
  {
    "code": "HK",
    "description": "Hong kong",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "HKG"
  },
  {
    "code": "HU",
    "description": "Hungría",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "HUN"
  },
  {
    "code": "IN",
    "description": "India",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "IND"
  },
  {
    "code": "ID",
    "description": "Indonesia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "IDN"
  },
  {
    "code": "IR",
    "description": "Irán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "IRN"
  },
  {
    "code": "IQ",
    "description": "Irak",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "IRQ"
  },
  {
    "code": "IE",
    "description": "Irlanda",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "IRL"
  },
  {
    "code": "BV",
    "description": "Isla Bouvet",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BVT"
  },
  {
    "code": "IM",
    "description": "Isla de Man",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "IMN"
  },
  {
    "code": "CX",
    "description": "Isla de Navidad",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CXR"
  },
  {
    "code": "NF",
    "description": "Isla Norfolk",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NFK"
  },
  {
    "code": "IS",
    "description": "Islandia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ISL"
  },
  {
    "code": "BM",
    "description": "Islas Bermudas",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BMU"
  },
  {
    "code": "KY",
    "description": "Islas Caimán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CYM"
  },
  {
    "code": "CC",
    "description": "Islas Cocos (Keeling)",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CCK"
  },
  {
    "code": "CK",
    "description": "Islas Cook",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "COK"
  },
  {
    "code": "AX",
    "description": "Islas de Åland",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ALA"
  },
  {
    "code": "FO",
    "description": "Islas Feroe",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "FRO"
  },
  {
    "code": "GS",
    "description": "Islas Georgias del Sur y Sandwich del Sur",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SGS"
  },
  {
    "code": "HM",
    "description": "Islas Heard y McDonald",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "HMD"
  },
  {
    "code": "MV",
    "description": "Islas Maldivas",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MDV"
  },
  {
    "code": "FK",
    "description": "Islas Malvinas",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "FLK"
  },
  {
    "code": "MP",
    "description": "Islas Marianas del Norte",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MNP"
  },
  {
    "code": "MH",
    "description": "Islas Marshall",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MHL"
  },
  {
    "code": "PN",
    "description": "Islas Pitcairn",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PCN"
  },
  {
    "code": "SB",
    "description": "Islas Salomón",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SLB"
  },
  {
    "code": "TC",
    "description": "Islas Turcas y Caicos",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TCA"
  },
  {
    "code": "UM",
    "description": "Islas Ultramarinas Menores de Estados Unidos",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "UMI"
  },
  {
    "code": "VG",
    "description": "Islas Vírgenes Británicas",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "VG"
  },
  {
    "code": "VI",
    "description": "Islas Vírgenes de los Estados Unidos",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "VIR"
  },
  {
    "code": "IL",
    "description": "Israel",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ISR"
  },
  {
    "code": "IT",
    "description": "Italia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ITA"
  },
  {
    "code": "JM",
    "description": "Jamaica",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "JAM"
  },
  {
    "code": "JP",
    "description": "Japón",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "JPN"
  },
  {
    "code": "JE",
    "description": "Jersey",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "JEY"
  },
  {
    "code": "JO",
    "description": "Jordania",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "JOR"
  },
  {
    "code": "KZ",
    "description": "Kazajistán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "KAZ"
  },
  {
    "code": "KE",
    "description": "Kenia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "KEN"
  },
  {
    "code": "KG",
    "description": "Kirgizstán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "KGZ"
  },
  {
    "code": "KI",
    "description": "Kiribati",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "KIR"
  },
  {
    "code": "KW",
    "description": "Kuwait",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "KWT"
  },
  {
    "code": "LB",
    "description": "Líbano",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LBN"
  },
  {
    "code": "LA",
    "description": "Laos",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LAO"
  },
  {
    "code": "LS",
    "description": "Lesoto",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LSO"
  },
  {
    "code": "LV",
    "description": "Letonia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LVA"
  },
  {
    "code": "LR",
    "description": "Liberia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LBR"
  },
  {
    "code": "LY",
    "description": "Libia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LBY"
  },
  {
    "code": "LI",
    "description": "Liechtenstein",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LIE"
  },
  {
    "code": "LT",
    "description": "Lituania",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LTU"
  },
  {
    "code": "LU",
    "description": "Luxemburgo",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LUX"
  },
  {
    "code": "MX",
    "description": "México",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MEX"
  },
  {
    "code": "MC",
    "description": "Mónaco",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MCO"
  },
  {
    "code": "MO",
    "description": "Macao",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MAC"
  },
  {
    "code": "MK",
    "description": "Macedônia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MKD"
  },
  {
    "code": "MG",
    "description": "Madagascar",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MDG"
  },
  {
    "code": "MY",
    "description": "Malasia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MYS"
  },
  {
    "code": "MW",
    "description": "Malawi",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MWI"
  },
  {
    "code": "ML",
    "description": "Mali",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MLI"
  },
  {
    "code": "MT",
    "description": "Malta",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MLT"
  },
  {
    "code": "MA",
    "description": "Marruecos",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MAR"
  },
  {
    "code": "MQ",
    "description": "Martinica",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MTQ"
  },
  {
    "code": "MU",
    "description": "Mauricio",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MUS"
  },
  {
    "code": "MR",
    "description": "Mauritania",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MRT"
  },
  {
    "code": "YT",
    "description": "Mayotte",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MYT"
  },
  {
    "code": "FM",
    "description": "Micronesia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "FSM"
  },
  {
    "code": "MD",
    "description": "Moldavia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MDA"
  },
  {
    "code": "MN",
    "description": "Mongolia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MNG"
  },
  {
    "code": "ME",
    "description": "Montenegro",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MNE"
  },
  {
    "code": "MS",
    "description": "Montserrat",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MSR"
  },
  {
    "code": "MZ",
    "description": "Mozambique",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MOZ"
  },
  {
    "code": "NA",
    "description": "Namibia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NAM"
  },
  {
    "code": "NR",
    "description": "Nauru",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NRU"
  },
  {
    "code": "NP",
    "description": "Nepal",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NPL"
  },
  {
    "code": "NI",
    "description": "Nicaragua",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NIC"
  },
  {
    "code": "NE",
    "description": "Niger",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NER"
  },
  {
    "code": "NG",
    "description": "Nigeria",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NGA"
  },
  {
    "code": "NU",
    "description": "Niue",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NIU"
  },
  {
    "code": "NO",
    "description": "Noruega",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NOR"
  },
  {
    "code": "NC",
    "description": "Nueva Caledonia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NCL"
  },
  {
    "code": "NZ",
    "description": "Nueva Zelanda",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NZL"
  },
  {
    "code": "OM",
    "description": "Omán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "OMN"
  },
  {
    "code": "NL",
    "description": "Países Bajos",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "NLD"
  },
  {
    "code": "PK",
    "description": "Pakistán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PAK"
  },
  {
    "code": "PW",
    "description": "Palau",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PLW"
  },
  {
    "code": "PS",
    "description": "Palestina",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PSE"
  },
  {
    "code": "PA",
    "description": "Panamá",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PAN"
  },
  {
    "code": "PG",
    "description": "Papúa Nueva Guinea",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PNG"
  },
  {
    "code": "PY",
    "description": "Paraguay",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PRY"
  },
  {
    "code": "PE",
    "description": "Perú",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PER"
  },
  {
    "code": "PF",
    "description": "Polinesia Francesa",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PYF"
  },
  {
    "code": "PL",
    "description": "Polonia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "POL"
  },
  {
    "code": "PT",
    "description": "Portugal",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PRT"
  },
  {
    "code": "PR",
    "description": "Puerto Rico",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "PRI"
  },
  {
    "code": "QA",
    "description": "Qatar",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "QAT"
  },
  {
    "code": "GB",
    "description": "Reino Unido",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "GBR"
  },
  {
    "code": "CF",
    "description": "República Centroafricana",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CAF"
  },
  {
    "code": "CZ",
    "description": "República Checa",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CZE"
  },
  {
    "code": "DO",
    "description": "República Dominicana",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "DOM"
  },
  {
    "code": "RE",
    "description": "Reunión",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "REU"
  },
  {
    "code": "RW",
    "description": "Ruanda",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "RWA"
  },
  {
    "code": "RO",
    "description": "Rumanía",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ROU"
  },
  {
    "code": "RU",
    "description": "Rusia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "RUS"
  },
  {
    "code": "EH",
    "description": "Sahara Occidental",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ESH"
  },
  {
    "code": "WS",
    "description": "Samoa",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "WSM"
  },
  {
    "code": "AS",
    "description": "Samoa Americana",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ASM"
  },
  {
    "code": "BL",
    "description": "San Bartolomé",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "BLM"
  },
  {
    "code": "KN",
    "description": "San Cristóbal y Nieves",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "KNA"
  },
  {
    "code": "SM",
    "description": "San Marino",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SMR"
  },
  {
    "code": "MF",
    "description": "San Martín (Francia)",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "MAF"
  },
  {
    "code": "PM",
    "description": "San Pedro y Miquelón",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SPM"
  },
  {
    "code": "VC",
    "description": "San Vicente y las Granadinas",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "VCT"
  },
  {
    "code": "SH",
    "description": "Santa Elena",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SHN"
  },
  {
    "code": "LC",
    "description": "Santa Lucía",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LCA"
  },
  {
    "code": "ST",
    "description": "Santo Tomé y Príncipe",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "STP"
  },
  {
    "code": "SN",
    "description": "Senegal",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SEN"
  },
  {
    "code": "RS",
    "description": "Serbia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SRB"
  },
  {
    "code": "SC",
    "description": "Seychelles",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SYC"
  },
  {
    "code": "SL",
    "description": "Sierra Leona",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SLE"
  },
  {
    "code": "SG",
    "description": "Singapur",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SGP"
  },
  {
    "code": "SY",
    "description": "Siria",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SYR"
  },
  {
    "code": "SO",
    "description": "Somalia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SOM"
  },
  {
    "code": "LK",
    "description": "Sri lanka",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "LKA"
  },
  {
    "code": "ZA",
    "description": "Sudáfrica",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ZAF"
  },
  {
    "code": "SD",
    "description": "Sudán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SDN"
  },
  {
    "code": "SE",
    "description": "Suecia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SWE"
  },
  {
    "code": "CH",
    "description": "Suiza",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "CHE"
  },
  {
    "code": "SR",
    "description": "Surinám",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SUR"
  },
  {
    "code": "SJ",
    "description": "Svalbard y Jan Mayen",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SJM"
  },
  {
    "code": "SZ",
    "description": "Swazilandia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "SWZ"
  },
  {
    "code": "TJ",
    "description": "Tadjikistán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TJK"
  },
  {
    "code": "TH",
    "description": "Tailandia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "THA"
  },
  {
    "code": "TW",
    "description": "Taiwán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TWN"
  },
  {
    "code": "TZ",
    "description": "Tanzania",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TZA"
  },
  {
    "code": "IO",
    "description": "Territorio Británico del Océano Índico",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "IOT"
  },
  {
    "code": "TF",
    "description": "Territorios Australes y Antárticas Franceses",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ATF"
  },
  {
    "code": "TL",
    "description": "Timor Oriental",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TLS"
  },
  {
    "code": "TG",
    "description": "Togo",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TGO"
  },
  {
    "code": "TK",
    "description": "Tokelau",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TKL"
  },
  {
    "code": "TO",
    "description": "Tonga",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TON"
  },
  {
    "code": "TT",
    "description": "Trinidad y Tobago",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TTO"
  },
  {
    "code": "TN",
    "description": "Tunez",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TUN"
  },
  {
    "code": "TM",
    "description": "Turkmenistán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TKM"
  },
  {
    "code": "TR",
    "description": "Turquía",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TUR"
  },
  {
    "code": "TV",
    "description": "Tuvalu",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "TUV"
  },
  {
    "code": "UA",
    "description": "Ucrania",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "UKR"
  },
  {
    "code": "UG",
    "description": "Uganda",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "UGA"
  },
  {
    "code": "UY",
    "description": "Uruguay",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "URY"
  },
  {
    "code": "UZ",
    "description": "Uzbekistán",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "UZB"
  },
  {
    "code": "VU",
    "description": "Vanuatu",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "VUT"
  },
  {
    "code": "VE",
    "description": "Venezuela",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "VEN"
  },
  {
    "code": "VN",
    "description": "Vietnam",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "VNM"
  },
  {
    "code": "WF",
    "description": "Wallis y Futuna",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "WLF"
  },
  {
    "code": "YE",
    "description": "Yemen",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "YEM"
  },
  {
    "code": "DJ",
    "description": "Yibuti",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "DJI"
  },
  {
    "code": "ZM",
    "description": "Zambia",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ZMB"
  },
  {
    "code": "ZW",
    "description": "Zimbabue",
-   "nacionality": "",
+   "nationality": "",
    "short_name": "ZWE"
  }
 ]

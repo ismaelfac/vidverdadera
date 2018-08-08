@@ -11,8 +11,9 @@ class LocationTableSeeder extends Seeder
      */
     public function run()
     {
-        $localities = ['Soltero', 'Casado', 'Unión Libre', 'Divorsiado'];
-        foreach ($civilstatus as $value) {
+        $data = file_get_contents("database/Queries/localities.json");
+        $localities = json_decode($data, true);
+        foreach ($localities as $value) {
             Location::create([
                 'description' => $value,
                 'short_name' => $value,

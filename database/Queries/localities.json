@@ -2,26 +2,26 @@
  {
    "description": "Norte Centro Historico",
    "short_name": "NCH",
-   "id_municipality": ""
+   "id_municipality": "1"
  },
  {
    "description": "Riomaar",
    "short_name": "RIO",
-   "id_municipality": ""
+   "id_municipality": "1"
  },
  {
    "description": "Metropolitana",
    "short_name": "MET",
-   "id_municipality": ""
+   "id_municipality": "1"
  },
  {
    "description": "Sur Oriente",
    "short_name": "SOR",
-   "id_municipality": ""
+   "id_municipality": "1"
  },
  {
    "description": "Sur Occiedente",
    "short_name": "SOC",
-   "id_municipality": ""
+   "id_municipality": "1"
  }
 ]

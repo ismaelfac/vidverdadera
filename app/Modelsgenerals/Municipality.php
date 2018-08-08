@@ -11,7 +11,7 @@ class Municipality extends Model
     public $timestamps = false;
 
     public function departament(){
-        return $this->belongsTo(App\Departament::class);
+        return $this->belongsTo(Departament::class);
     }
     public function locations(){
         return $this->hasMany(Location::class);
