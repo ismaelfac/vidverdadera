@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLocalionsTable extends Migration
+class CreateCountriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,13 @@ class CreateLocalionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('localions', function (Blueprint $table) {
+        Schema::create('countries', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->timestamps();
+            $table->string('code');
+            $table->string('description');
+            $table->string('nationality');
+            $table->string('short_name');
         });
     }
 
@@ -26,6 +30,6 @@ class CreateLocalionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('localions');
+        Schema::dropIfExists('countries');
     }
 }

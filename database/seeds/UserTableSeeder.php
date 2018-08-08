@@ -11,13 +11,13 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        User::create([
-            'name' => 'ISMAEL LASTRE ALVAREZ',
-            'email' => 'ismaelfac@gmail.com',
-            'password' => bcrypt('BrwQ12-123')
-            'member_id' => factory(User::class)->create()->each(function(User $user){
-                $user->member()->attach()
-            });
-        ]);
+        $data = file_get_contents("database/Queries/users.json");
+        $users = json_decode($data, true);
+        foreach ($users as $value) {
+            //dd($value['code']);
+            User::create([
+                
+            ]);
+        }
     }
 }

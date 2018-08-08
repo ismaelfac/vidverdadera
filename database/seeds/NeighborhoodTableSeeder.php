@@ -1,5 +1,5 @@
 <?php
-
+use App\Modelsgenerals\Neighborhood;
 use Illuminate\Database\Seeder;
 
 class NeighborhoodTableSeeder extends Seeder
@@ -11,6 +11,14 @@ class NeighborhoodTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $data = file_get_contents("database/Queries/neighborhoods.json");
+        $neighborhoods = json_decode($data, true);
+        foreach ($neighborhoods as $value) {
+            //dd($value['code']);
+            Neighborhood::create([
+                'description' => $value['description'],
+                'location_id' => $value['id_location']
+            ]);
+        }
     }
 }

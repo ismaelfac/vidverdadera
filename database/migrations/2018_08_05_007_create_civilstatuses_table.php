@@ -6,14 +6,10 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateCivilstatusesTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
         Schema::create('civilstatuses', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('description');
         });

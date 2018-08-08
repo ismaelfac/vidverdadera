@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Neighborhood extends Model
 {
     //
-    protected $fillable = ['code', 'description', 'id_location'];
+    protected $fillable = ['description', 'id_location'];
     public $timestamps = false;
 
    

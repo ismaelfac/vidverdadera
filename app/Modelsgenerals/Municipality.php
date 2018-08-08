@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Municipality extends Model
 {
     //
-    protected $fillable = ['code', 'description', 'departament_id'];
+    protected $fillable = ['description', 'departament_id'];
     public $timestamps = false;
 
     public function departament(){

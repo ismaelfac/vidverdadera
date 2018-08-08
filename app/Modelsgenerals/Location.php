@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modelsgeneral;
+namespace App\Modelsgenerals;
 use App\Modelsgeneral\{ Neighborhood, Municipality };
 use Illuminate\Database\Eloquent\Model;
 

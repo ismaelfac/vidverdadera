@@ -11,7 +11,6 @@ class DepartamentTableSeeder extends Seeder
         foreach ($departaments as $value) {
             //dd($value['code']);
             Departament::create([
-                'code' => $value['code'],
                 'description' => $value['description'],
                 'short_name' => $value['short_name'],
                 'country_id' => $value['id_country']

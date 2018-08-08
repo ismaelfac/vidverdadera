@@ -14,11 +14,13 @@ class CreateMunicipalitiesTable extends Migration
     public function up()
     {
         Schema::create('municipalities', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->string('code');
             $table->string('description');
             $table->integer('departament_id')->unsigned();
-            $table->foreign('departament_id')->references('id')->on('departaments');
+            $table->foreign('departament_id')->references('id')->on('departaments')
+                  ->onDelete('cascade')
+                  ->onUpdate('cascade');
         });
     }
 
