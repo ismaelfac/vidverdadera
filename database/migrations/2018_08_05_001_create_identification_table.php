@@ -13,7 +13,7 @@ class CreateIdentificationTable extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('description');
-            $table->string('shortName');
+            $table->string('short_name');
         });
     }
 

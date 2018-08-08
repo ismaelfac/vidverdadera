@@ -27,8 +27,8 @@ class CreateMembersTable extends Migration
             $table->string('landline');
             $table->string('email')->unique();
             $table->string('address',100);
-            $table->string('latitude');
-            $table->string('longitude');
+            $table->string('latitude')->nullable();
+            $table->string('longitude')->nullable();
             $table->integer('location_id')->unsigned();
             $table->foreign('location_id')->references('id')->on('locations')
                   ->onDelete('cascade')
@@ -50,11 +50,11 @@ class CreateMembersTable extends Migration
                   ->onDelete('cascade')
                   ->onUpdate('cascade');
             $table->date('birthdate');
-            $table->integer('civilStatus_id')->unsigned();
-            $table->foreign('civilStatus_id')->references('id')->on('civilstatuses')
+            $table->integer('civilstatus_id')->unsigned();
+            $table->foreign('civilstatus_id')->references('id')->on('civilstatuses')
                   ->onDelete('cascade')
                   ->onUpdate('cascade');
-            $table->date('wedding_anniversary');
+            $table->date('wedding_anniversary')->nullable();
             $table->boolean('active')->default(false);
             $table->boolean('is_leader')->default(false);
             $table->integer('church_id')->unsigned();

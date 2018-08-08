@@ -1,5 +1,5 @@
 <?php
-use App\User;
+use App\{ User, Member };
 use Illuminate\Database\Seeder;
 
 class UserTableSeeder extends Seeder
@@ -16,7 +16,10 @@ class UserTableSeeder extends Seeder
         foreach ($users as $value) {
             //dd($value['code']);
             User::create([
-                
+                'name' => strtoupper($value['name']),
+                'email' => strtoupper($value['email']),
+                'password' => bcrypt($value['password']),
+                'member_id' => $value['member_id'],
             ]);
         }
     }

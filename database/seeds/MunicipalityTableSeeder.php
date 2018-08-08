@@ -11,8 +11,8 @@ class MunicipalityTableSeeder extends Seeder
         foreach ($municipalities as $value) {
             //dd($value['code']);
             Municipality::create([
-                'description' => $value['description'],
-                'departament_id' => $value['id_departament'],
+               'description'      => $value['description'],
+               'departament_id'      => $value['id_departament']
             ]);
         }
     }

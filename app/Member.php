@@ -1,5 +1,4 @@
 <?php
-use App\Modelsgenerals\{ Identification, Neighborhood, Municipality, Departament, Country, Civilstatus, Church };
 use App\{ User, Leader};
 namespace App;
 
@@ -31,47 +30,47 @@ class Member extends Model
         'church_id'
     ];
     protected $casts = [
-        'active' = 'boolean',
-        'is_leader' = 'boolean'
+        'active' => 'boolean',
+        'is_leader' => 'boolean'
     ];
     public function identification()
     {
-        return $this->belongsTo(Identification::class);
+        return $this->belongsTo(Modelsgenerals\Identification::class, 'type_dni');
     }
     public function neighborhood()
     {
-        return $this->belongsTo(Neighborhood::class);
+        return $this->belongsTo(Modelsgenerals\Neighborhood::class);
     }
     public function municipality()
     {
-        return $this->belongsTo(Municipality::class);
+        return $this->belongsTo(Modelsgenerals\Municipality::class);
     }
     public function departament()
     {
-        return $this->belongsTo(Departament::class);
+        return $this->belongsTo(Modelsgenerals\Departament::class);
     }
     public function country()
     {
-        return $this->belongsTo(Country::class);
+        return $this->belongsTo(Modelsgenerals\Country::class);
     }
     public function civilStatus()
     {
-        return $this->belongsTo(Civilstatus::class);
+        return $this->belongsTo(Modelsgenerals\Civilstatus::class);
     }
     public function church(){
-        return $this->belongsTo(Church::class);
+        return $this->belongsTo(Modelsgenerals\Church::class);
     }
     public function leaders()
     {
         return $this->hasMany(Leader::class);
     }
-    public function users()
+    public function user()
     {
         return $this->belongsTo(User::class);
     }
-    public function is_leader()
+    public function isLeader()
     {
-        return $this->is_leader;
+        return ($this->is_leader ? true : false);
     }
     public function getUrlAttribute()
     {
@@ -80,5 +79,17 @@ class Member extends Model
     public function getLocationAttribute()
     {
         return $this->address;
+    }
+    public function isActive()
+    {
+        return ($this->active ? true : false);
+    }
+    public static function findByEmail($email)
+    {
+        return static::where(compact('email'))->first();
+    }
+    public static function findByDni($dni)
+    {
+        return static::where(compact('dni'))->first();
     }
 }
