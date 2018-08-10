@@ -2,46 +2,28 @@
  {
    "member_id": 1,
    "zone_assigment_id": 1,
-   "activation_date_district": "02/02/2018",
+   "activation_date_district": "2018/02/02",
    "zonal_pastors_id": 2,
-   "activation_date_zonal": "02/02/2018",
-   "expiration_date": "",
+   "activation_date_zonal": "2018/02/02",
+   "expiration_date": null,
    "active": 1
  },
  {
    "member_id": 2,
    "zone_assigment_id": 1,
-   "activation_date_district": "04/05/2018",
+   "activation_date_district": "2018/05/04",
    "zonal_pastors_id": 2,
-   "activation_date_zonal": "04/05/2018",
-   "expiration_date": "",
+   "activation_date_zonal": "2018/08/03",
+   "expiration_date": null,
    "active": 1
  },
  {
    "member_id": 3,
    "zone_assigment_id": 1,
-   "activation_date_district": "02/03/2017",
-   "zonal_pastors_id": 2,
-   "activation_date_zonal": "02/03/2017",
-   "expiration_date": "",
-   "active": 1
- },
- {
-   "member_id": 4,
-   "zone_assigment_id": 1,
-   "activation_date_district": "05/02/2017",
-   "zonal_pastors_id": 3,
-   "activation_date_zonal": "05/02/2017",
-   "expiration_date": "",
-   "active": 1
- },
- {
-   "member_id": 5,
-   "zone_assigment_id": 1,
-   "activation_date_district": "04/05/2018",
-   "zonal_pastors_id": 3,
-   "activation_date_zonal": "04/05/2018",
-   "expiration_date": "",
+   "activation_date_district": "2017/03/02",
+   "zonal_pastors_id":3,
+   "activation_date_zonal": "2017/04/02",
+   "expiration_date": null,
    "active": 1
  }
 ]

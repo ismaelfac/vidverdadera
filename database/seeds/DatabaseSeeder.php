@@ -23,5 +23,8 @@ class DatabaseSeeder extends Seeder
         $this->call(UserTableSeeder::class);
         $this->call(LeaderTableSeeder::class);
         $this->call(PoliciesTableSeeder::class);
+        $this->call(LeadersMembersTableSeeder::class);
+        $this->call(ZonaAssigmentTableSeeder::class);
+        $this->call(MemberPastorTableSeeder::class);
     }
 }

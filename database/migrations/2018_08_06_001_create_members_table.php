@@ -24,7 +24,7 @@ class CreateMembersTable extends Migration
                   ->onDelete('cascade')
                   ->onUpdate('cascade');;
             $table->string('phone')->nullable();
-            $table->string('landline');
+            $table->string('landline')->nullable();
             $table->string('email')->unique();
             $table->string('address',100);
             $table->string('latitude')->nullable();

@@ -2,29 +2,29 @@
  {
    "leader_id": 2,
    "member_id": 1,
-   "appointment_date": "10/02/2015",
-   "expiration_date": "",
+   "appointment_date": "2015/02/10",
+   "expiration_date": null,
    "active": 1
  },
  {
    "leader_id": 2,
    "member_id": 2,
-   "appointment_date": "18/02/2016",
-   "expiration_date": "",
+   "appointment_date": "2016/02/18",
+   "expiration_date": null,
    "active": 1
  },
  {
    "leader_id": 5,
    "member_id": 3,
-   "appointment_date": "02/12/1999",
-   "expiration_date": "02/12/2001",
+   "appointment_date": "1999/12/02",
+   "expiration_date": "2001/11/08",
    "active": 0
  },
  {
    "leader_id": 6,
    "member_id": 3,
-   "appointment_date": "02/12/2001",
-   "expiration_date": "",
+   "appointment_date": "2001/11/01",
+   "expiration_date": null,
    "active": 1
  }
 ]

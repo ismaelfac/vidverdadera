@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Leader_Member extends Model
+class LeaderMember extends Model
 {
     protected $fillable = ['leader_id','member_id', 'appointment_date', 'expiration','active'];
     protected $casts = [
