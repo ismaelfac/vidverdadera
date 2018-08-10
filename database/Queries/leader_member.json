@@ -1,0 +1,30 @@
+[
+ {
+   "leader_id": 2,
+   "member_id": 1,
+   "appointment_date": "10/02/2015",
+   "expiration_date": "",
+   "active": 1
+ },
+ {
+   "leader_id": 2,
+   "member_id": 2,
+   "appointment_date": "18/02/2016",
+   "expiration_date": "",
+   "active": 1
+ },
+ {
+   "leader_id": 5,
+   "member_id": 3,
+   "appointment_date": "02/12/1999",
+   "expiration_date": "02/12/2001",
+   "active": 0
+ },
+ {
+   "leader_id": 6,
+   "member_id": 3,
+   "appointment_date": "02/12/2001",
+   "expiration_date": "",
+   "active": 1
+ }
+]

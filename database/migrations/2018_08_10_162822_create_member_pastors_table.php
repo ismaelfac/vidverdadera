@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLeaderMembersTable extends Migration
+class CreateMemberPastorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,18 +13,22 @@ class CreateLeaderMembersTable extends Migration
      */
     public function up()
     {
-        Schema::create('leader_members', function (Blueprint $table) {
-            $table->engine = 'InnoDB';
+        Schema::create('member_pastors', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('leader_id')->unsigned();
-            $table->foreign('leader_id')->references('id')->on('leaders')
-                  ->onDelete('cascade')
-                  ->onUpdate('cascade');
             $table->integer('member_id')->unsigned();
             $table->foreign('member_id')->references('id')->on('members')
                   ->onDelete('cascade')
                   ->onUpdate('cascade');
-            $table->date('appointment_date')->nullable();
+            $table->integer('zone_assigment_id')->unsigned();
+            $table->foreign('zone_assigment_id')->references('id')->on('zone_assigments')
+                  ->onDelete('cascade')
+                  ->onUpdate('cascade');
+            $table->date('activation_date_district');
+            $table->integer('zonal_pastors_id')->unsigned();
+            $table->foreign('zonal_pastors_id')->references('id')->on('zone_assigments')
+                  ->onDelete('cascade')
+                  ->onUpdate('cascade');
+            $table->date('activation_date_zonal');
             $table->date('expiration_date')->nullable();
             $table->boolean('active')->default(false);
             $table->timestamps();
@@ -38,6 +42,6 @@ class CreateLeaderMembersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('leader__members');
+        Schema::dropIfExists('member_pastors');
     }
 }

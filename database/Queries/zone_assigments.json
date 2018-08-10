@@ -1,0 +1,20 @@
+[
+ {
+   "leader_member": 1,
+   "location_id": 3,
+   "activation_date": "01/05/2018",
+   "active": 1
+ },
+ {
+   "leader_member": 2,
+   "location_id": 3,
+   "activation_date": "06/05/2018",
+   "active": 1
+ },
+ {
+   "leader_member": 4,
+   "location_id": 3,
+   "activation_date": "05/08/2015",
+   "active": 1
+ }
+]

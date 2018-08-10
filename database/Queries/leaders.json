@@ -1,4 +1,8 @@
 [
+  {
+   "description": "Diacono Asignado",
+   "short_name": "DA"
+ },
  {
    "description": "Diacono",
    "short_name": "D"
