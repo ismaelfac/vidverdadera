@@ -1,25 +1,26 @@
 [
  {
-   "first_name": "Ismael Enrique",
+   "first_name": "ISMAEL ENRIQUE",
    "last_name": "LASTRE ALVAREZ",
    "dni": 72288959,
    "type_dni": 1,
    "phone": 3113258468,
    "landline": 3633884,
-   "email": "ismaelfac@gmail.com",
+   "email": "ismaelfac@gmaail.com",
    "address": "CLL 47D # 1A4-82 ",
    "latitude": 10.9323931,
    "longitude": -74.8066325,
-   "location_id": 3,
    "neighborhood_id": 68,
+   "location_id": 3,
    "municipality_id": 126,
    "departament_id": 2,
-   "country_id" : 45,
-   "birthdate": "1983-02-12",
-   "civilstatus_id": 1,
-   "wedding_anniversary": "",
+   "birthdate": "02/12/1983",
+   "civilStatus_id": 1,
+   "date_baptism": "10/10/2012",
+   "admission_church": "01/09/2014",
+   "wedding_anniversary": 1,
    "active": 1,
    "is_leader": 1,
-   "church_id": 1
+   "church_id": ""
  }
 ]

@@ -24,9 +24,10 @@ class Member extends Model
         'country_id',
         'birthdate',
         'civil_status',
+        'date_baptism',
+        'admission_church',
         'wedding_anniversary',
         'active',
-        'is_leader',
         'church_id'
     ];
     protected $casts = [

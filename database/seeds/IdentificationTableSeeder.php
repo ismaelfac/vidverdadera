@@ -8,7 +8,6 @@ class IdentificationTableSeeder extends Seeder
     {
         $data = file_get_contents("database/Queries/identifications.json");
         $identifications = json_decode($data, true);
-        //dd($identifications);
         foreach ($identifications as $value) {
             Identification::create([
                 'description' => $value['description'],

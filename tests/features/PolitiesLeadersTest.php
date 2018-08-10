@@ -1,6 +1,6 @@
 <?php
 
-class PolitiesLeadersTest extends TestCase
+class PolitiesLeadersTest extends FeatureTestCase
 {
     /**
      * A basic test example.
@@ -11,16 +11,16 @@ class PolitiesLeadersTest extends TestCase
     {
         //having
         $leader = $this->createLeader();
-        $polities = $this->GetPolitiesDistrictPastor([
+        $polities = $this->GetPolities([
             'leader_id' => $leader->id
         ]);
-        $DistrictPastors = $this->factory(App\Districtpastor::class)->create([
+        $DistrictPastors = $this->createGrazingGroup([
             'polity_id' => $polities->id
         ]);
 
         //when
         $this->visit(route('polities.show'))
             ->seeInElement('h4', 'Politicas del Pastor Distrital')
-            ->seeInElement('ul', 'Politica default')
+            ->seeInElement('ul', 'Politica default');
     }
 }

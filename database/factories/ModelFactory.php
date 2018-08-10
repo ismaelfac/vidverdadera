@@ -14,7 +14,7 @@ use App\Modelsgenerals\{ Identification, Neighborhood, Municipality, Departament
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     static $password;
-
+    dd('User');
     return [
         'name' => $faker->name,
         'email' => $faker->unique()->safeEmail,
@@ -26,6 +26,7 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
     ];
 });
 $factory->define(App\Member::class, function (Faker\Generator $faker) {
+    dd($faker->name);
     return [
         'first_name' => $faker->name,
         'last_name' => $faker->lastname,
@@ -69,17 +70,17 @@ $factory->define(App\Leader::class, function (Faker\Generator $faker) {
 $factory->define(Identification::class, function (Faker\Generator $faker) {
     return [
         'description' => 'Cedula de Ciudadania',
-        'shortName' => 'cc',
+        'shortName' => 'cc'
     ];
 });
 $factory->define(Civilstatus::class, function (Faker\Generator $faker) {
     return [
-        'description' => 'Soltero',
+        'description' => 'Soltero'
     ];
 });
 $factory->define(Church::class, function (Faker\Generator $faker) {
     return [
-        'description' => 'Ministerio Vid Verdadera Central',
+        'description' => 'Ministerio Vid Verdadera Central'
     ];
 });
 $factory->define(Neighborhood::class, function (Faker\Generator $faker) {
@@ -88,7 +89,7 @@ $factory->define(Neighborhood::class, function (Faker\Generator $faker) {
         'description' => 'Delicias',
         'municipality_id' => function () {
             return factory(Municipality::class)->create()->id;
-        },
+        }
     ];
 });
 $factory->define(Municipality::class, function (Faker\Generator $faker) {
@@ -97,7 +98,7 @@ $factory->define(Municipality::class, function (Faker\Generator $faker) {
         'description' => 'Barranquilla',
         'departament_id' => function () {
             return factory(Departament::class)->create()->id;
-        },
+        }
     ];
 });
 $factory->define(Departament::class, function (Faker\Generator $faker) {
@@ -107,14 +108,14 @@ $factory->define(Departament::class, function (Faker\Generator $faker) {
         'short_name' => 'ATL',
         'country_id' => function () {
             return factory(Country::class)->create()->id;
-        },
+        }
     ];
 });
 $factory->define(Country::class, function (Faker\Generator $faker) {
     return [
         'code' => '08',
         'description' => 'Colombia',
-        'nationalities' => 'Colombiana',
+        'nationalities' => 'Colombiana'
     ];
 });
 

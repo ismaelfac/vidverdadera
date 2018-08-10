@@ -27,10 +27,11 @@ class MemberTableSeeder extends Seeder
                 'departament_id'  => $value['departament_id'],
                 'country_id'      => $value['country_id'],
                 'birthdate'       => $value['birthdate'],
+                'date_baptism'    => $value['date_baptism'],
+                'admission_church'=> $value['admission_church'],
                 'civilstatus_id'  => $value['civilstatus_id'],
                 'wedding_anniversary' => ($value['wedding_anniversary']? $value['wedding_anniversary']: null),
                 'active'         => ($value['active'] ? true : false ),
-                'is_leader'      => ($value['is_leader'] ? true : false),
                 'church_id'      => $value['church_id']
             ]);
         }

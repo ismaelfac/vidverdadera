@@ -54,6 +54,8 @@ class CreateMembersTable extends Migration
             $table->foreign('civilstatus_id')->references('id')->on('civilstatuses')
                   ->onDelete('cascade')
                   ->onUpdate('cascade');
+            $table->date('date_baptism');
+            $table->date('admission_church');
             $table->date('wedding_anniversary')->nullable();
             $table->boolean('active')->default(false);
             $table->boolean('is_leader')->default(false);
