@@ -4,7 +4,7 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class NeighborhoodTest extends TestCase
+class NeighborhoodTest extends FeatureTestCase
 {
     /**
      * A basic test example.

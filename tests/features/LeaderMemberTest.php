@@ -4,14 +4,9 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class LeaderMemberTest extends TestCase
+class LeaderMemberTest extends FeatureTestCase
 {
-    /**
-     * A basic test example.
-     *
-     * @return void
-     */
-    public function testExample()
+    function testExample()
     {
         $this->assertTrue(true);
     }

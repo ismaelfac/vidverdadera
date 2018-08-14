@@ -1,5 +1,5 @@
 <?php
-use App\Modelsgenerals\{ Departament, Location };
+use App\Modelsgenerals\{ Departament, Municipality, Location };
 namespace App\Modelsgenerals;
 
 use Illuminate\Database\Eloquent\Model;
@@ -15,5 +15,11 @@ class Municipality extends Model
     }
     public function locations(){
         return $this->hasMany(Location::class);
+    }
+
+    public static function getAllMunicipalitiesAttribute()
+    {
+        $municipalities = Municipality::all();
+        return $municipalities;
     }
 }
