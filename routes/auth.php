@@ -23,3 +23,12 @@ Route::post('member/create', [
     'uses' => 'Member\CreateMemberController@store',
     'as' => 'member.store',
 ]);
+// Location
+Route::get('location/create', [
+    'uses' => 'Location\CreateLocationController@create',
+    'as' => 'location.create',
+]);
+Route::post('location/create', [
+    'uses' => 'Location\CreateLocationController@store',
+    'as' => 'location.store',
+]);

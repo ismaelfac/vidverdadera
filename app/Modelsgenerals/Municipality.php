@@ -19,7 +19,6 @@ class Municipality extends Model
 
     public static function getAllMunicipalitiesAttribute()
     {
-        $municipalities = Municipality::all();
-        return $municipalities;
+        return static::all();
     }
 }

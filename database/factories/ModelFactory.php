@@ -1,6 +1,6 @@
 <?php
 use App\Modelsgenerals\{ Identification, Neighborhood, Municipality, Departament, Country, Civilstatus, Church };
-use App\Member, Leader, LeaderMember, MemberPastor;
+use App\{ Member, Leader, LeaderMember, MemberPastor };
 /*
 |--------------------------------------------------------------------------
 | Model Factories
@@ -62,7 +62,7 @@ $factory->define(App\Member::class, function (Faker\Generator $faker) {
 });
 $factory->define(App\Leader::class, function (Faker\Generator $faker) {
     return [
-        'description' = $faker->sentence,
+        'description' => $faker->sentence,
     ];
 });
 $factory->define(Identification::class, function (Faker\Generator $faker) {

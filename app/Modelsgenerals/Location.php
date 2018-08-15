@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Location extends Model
 {
-    protected $fillable = ['description', 'short_name', 'id_municipality'];
+    protected $fillable = ['description', 'short_name', 'municipality_id'];
     public $timestamps = false;
 
     public function beighborhoods(){
@@ -18,14 +18,14 @@ class Location extends Model
 
     public static function getFindLocationByMunicipalityAttribute($municipality)
     {
-        $municipality = Municipality::find("$municipality");
-        $locations = Location::where('municipality_id',$municipality->id)->get();
-        return $locations;
+        $result_id = Municipality::find($municipality);
+        if($result_id->id){
+            return static::where('municipality_id',$result_id->id)->get();
+        }
     }
     public static function getAllLocationsAttribute()
     {
-        $locations = Location::all();
-        return $locations;
+        return static::all();
     }
     
 }
