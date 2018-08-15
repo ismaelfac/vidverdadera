@@ -23,9 +23,10 @@ class Location extends Model
             return static::where('municipality_id',$result_id->id)->get();
         }
     }
-    public static function getAllLocationsAttribute()
+
+    public function getUrlAttribute()
     {
-        return static::all();
+        return route('municipality.show', $this->id);
     }
     
 }

@@ -15,6 +15,15 @@
 
 
 // Members
+//Municipality
+Route::get('member', [
+    'as' => 'member.index',
+    'uses' => 'Member\MemberController@index'
+]);
+Route::get('member/{id}', [
+    'as' => 'member.show',
+    'uses' => 'Member\MemberController@show'
+]);
 Route::get('member/create', [
     'uses' => 'Member\CreateMemberController@create',
     'as' => 'member.create',
@@ -39,5 +48,5 @@ Route::get('municipality/create', [
 ]);
 Route::post('municipality/create', [
     'uses' => 'Municipality\CreateMunicipalityController@store',
-    'as' => 'location.store',
+    'as' => 'municipality.store',
 ]);

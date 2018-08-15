@@ -7,7 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <div class="btn-group pull-right" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-secondary"><a href="{{ url('location/create') }}">Crear</a></button>
+                        <button type="button" class="btn btn-secondary"><a href="{{ url('municipality/create') }}">Crear</a></button>
                         <button type="button" class="btn btn-secondary">Desactivar</button>
                         <button type="button" class="btn btn-secondary">Imprimir</button>
                     </div>

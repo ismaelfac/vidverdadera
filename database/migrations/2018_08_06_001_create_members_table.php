@@ -18,6 +18,7 @@ class CreateMembersTable extends Migration
             $table->increments('id');
             $table->string('first_name');
             $table->string('last_name');
+            $table->string('slug');
             $table->string('dni');
             $table->integer('type_dni')->unsigned();
             $table->foreign('type_dni')->references('id')->on('identifications')

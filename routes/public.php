@@ -22,7 +22,9 @@
     Route::get('password/reset/{token}', ['as' => 'password.reset.token', 'uses' => 'Auth\ResetPasswordController@showResetForm']);
     Route::post('password/reset', ['as' => 'password.reset.post', 'uses' => 'Auth\ResetPasswordController@reset']);
 
-
+Route::get('/', function(){
+    return view('content');
+});
 Route::get('/home', 'HomeController@index');
 //Location
 Route::get('location', [
