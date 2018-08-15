@@ -11,20 +11,20 @@
                         <button type="button" class="btn btn-secondary">Desactivar</button>
                         <button type="button" class="btn btn-secondary">Imprimir</button>
                     </div>
-                    <h1>Localidades</h1>
+                    <h1>Municipios</h1>
                 </div>
                 <div class="panel-body">
                     <ul class="list-group">
-                    @forelse ($locations as $l)
+                    @forelse ($municipalities as $m)
                         <li class="list-group-item">
-                            <button class="btn btn-default btn-block" value="{{ $l->id }}">{{ $l->description }} : <strong>{{ $l->short_name }}</strong></button>
+                            <a  type="button" class="btn btn-default btn-block" href="{{ $m->id }}">{{ $m->description }}</a>
                         </li>
                     @empty
                         <li>No existen registros</li>
                     @endforelse
                     </ul>
                 </div>
-                {{ $locations->render() }}
+                {{ $municipalities->render() }}
             </div>
         </div>
     </div>

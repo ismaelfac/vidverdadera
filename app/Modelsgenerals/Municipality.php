@@ -16,9 +16,14 @@ class Municipality extends Model
     public function locations(){
         return $this->hasMany(Location::class);
     }
-
-    public static function getAllMunicipalitiesAttribute()
+    public function setDescriptionAttribute($value)
     {
-        return static::all();
+        $this->attributes['description'] = $value;
+        $this->attributes['slug'] = Str::slug($value);
     }
+    public function getUrlAttribute()
+    {
+        return route('municipality.show', [$this->id, $this->slug]);
+    }
+  
 }

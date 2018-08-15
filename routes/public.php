@@ -24,6 +24,7 @@
 
 
 Route::get('/home', 'HomeController@index');
+//Location
 Route::get('location', [
     'as' => 'location.index',
     'uses' => 'Location\LocationController@index'
@@ -31,4 +32,13 @@ Route::get('location', [
 Route::get('location/{id}', [
     'as' => 'location.show',
     'uses' => 'Location\LocationController@show'
+]);
+//Municipality
+Route::get('municipality', [
+    'as' => 'municipality.index',
+    'uses' => 'Municipality\MunicipalityController@index'
+]);
+Route::get('municipality/{id}', [
+    'as' => 'municipality.show',
+    'uses' => 'Municipality\MunicipalityController@show'
 ]);

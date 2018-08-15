@@ -32,3 +32,12 @@ Route::post('location/create', [
     'uses' => 'Location\CreateLocationController@store',
     'as' => 'location.store',
 ]);
+// Municipality
+Route::get('municipality/create', [
+    'uses' => 'Municipality\CreateMunicipalityController@create',
+    'as' => 'municipality.create',
+]);
+Route::post('municipality/create', [
+    'uses' => 'Municipality\CreateMunicipalityController@store',
+    'as' => 'location.store',
+]);

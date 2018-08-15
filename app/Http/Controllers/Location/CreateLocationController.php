@@ -22,10 +22,6 @@ class CreateLocationController extends Controller
             'municipality_id' => 'required'
         ]);
         $location = Location::create($request->all());
-        if($location){
-            $locations = Location::getAllLocationsAttribute()->toJson();
-            $locations = json_decode($locations);
-            return view('generals_date.location.index',compact('locations'));
-        }
+        return redirect(url('/home'));
     }
 }

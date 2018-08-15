@@ -9,11 +9,10 @@ class LocationController extends Controller
 {
     public function index()
     {
-        $locations = Location::getAllLocationsAttribute()->toJson();
-        $locations = json_decode($locations);
+        $locations = Location::orderBy('municipality_id','DESC')->paginate();
         return view('generals_date.location.index',compact('locations'));
     }
-    public function show($municipality)
+    public function show(Location $location)
     {   $municipalities = Municipality::getAllMunicipalitiesAttribute()->toArray();
         $locations = Location::getFindLocationByMunicipalityAttribute($municipalities)->toArray();  
         return view('generals_date.location.show',compact('locations', 'municipalities'));
